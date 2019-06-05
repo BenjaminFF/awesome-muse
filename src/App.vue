@@ -1,13 +1,16 @@
 <template>
-  <div>
-    
+  <div id="app">
+    <clipping-mask></clipping-mask>
   </div>
 </template>
 
 <script>
-
+  import RoughMobile from './components/roughmuse/rough-mobile'
+  import CircleDot from "./components/circle-dot";
+  import ClippingMask from "./components/clipping-mask";
   export default {
     name: 'App',
+    components: {ClippingMask, CircleDot, RoughMobile},
     data() {
       return {
 
