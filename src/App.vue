@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <clipping-mask></clipping-mask>
+    <snake-move></snake-move>
   </div>
 </template>
 
@@ -8,9 +8,11 @@
   import RoughMobile from './components/roughmuse/rough-mobile'
   import CircleDot from "./components/circle-dot";
   import ClippingMask from "./components/clipping-mask";
+  import SchulteTable from "./components/schulte-table";
+  import SnakeMove from "./components/snake-move";
   export default {
     name: 'App',
-    components: {ClippingMask, CircleDot, RoughMobile},
+    components: {SnakeMove, SchulteTable, ClippingMask, CircleDot, RoughMobile},
     data() {
       return {
 
