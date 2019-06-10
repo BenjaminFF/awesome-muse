@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <snake-move></snake-move>
+    <my-clock></my-clock>
   </div>
 </template>
 
@@ -10,9 +10,11 @@
   import ClippingMask from "./components/clipping-mask";
   import SchulteTable from "./components/schulte-table";
   import SnakeMove from "./components/snake-move";
+  import BorderAnim from "./components/border-anim";
+  import MyClock from "./components/my-clock";
   export default {
     name: 'App',
-    components: {SnakeMove, SchulteTable, ClippingMask, CircleDot, RoughMobile},
+    components: {MyClock, BorderAnim, SnakeMove, SchulteTable, ClippingMask, CircleDot, RoughMobile},
     data() {
       return {
 
