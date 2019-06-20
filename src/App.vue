@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <awesome-draw></awesome-draw>
+    <auto-stroke></auto-stroke>
   </div>
 </template>
 
@@ -14,9 +14,11 @@
   import MyClock from "./components/my-clock";
   import FingerSnap from "./components/finger-snap";
   import AwesomeDraw from "./components/awesome-draw";
+  import AutoStroke from "./components/auto-stroke";
   export default {
     name: 'App',
     components: {
+      AutoStroke,
       AwesomeDraw,
       FingerSnap, MyClock, BorderAnim, SnakeMove, SchulteTable, ClippingMask, CircleDot, RoughMobile},
     data() {
